@@ -34,7 +34,7 @@ class App extends Component {
 
         <Transition
           in={this.state.showBlock}
-          timeout={300}
+          timeout={1000}
           mountOnEnter
           unmountOnExit
         >
